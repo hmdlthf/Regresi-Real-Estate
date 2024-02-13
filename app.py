@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Menulis judul
-st.markdown("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
+title = ("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
     <p> style='text-align: center;'>The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist, New Taipei City, Taiwan.</p>
     <p><strong>Dataset Information:</strong></p>
     <ul>
