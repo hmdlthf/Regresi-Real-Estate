@@ -7,6 +7,10 @@ import pickle
 import warnings
 warnings.filterwarnings("ignore")
 
+_Dataset_Information = """
+The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist., New Taipei City, Taiwan.
+"""
+
 # Menulis judul
 st.markdown("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
 st.markdown('---'*10)
