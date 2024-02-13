@@ -8,8 +8,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Menulis judul
-title = ("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
-    <p> style='text-align: center;'>The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist, New Taipei City, Taiwan.</p>
+st.markdown = ("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
+st.write= ("<h3 style='text-align: center;'>The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist, New Taipei City, Taiwan.</h2", unsafe_allow_html=True) 
     <p><strong>Dataset Information:</strong></p>
     <ul>
       <li>the house age (unit: year).</li>
