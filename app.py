@@ -9,18 +9,7 @@ warnings.filterwarnings("ignore")
 
 # Menulis judul
 st.markdown = ("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
-st.write= ("<h3 style='text-align: center;'>The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist, New Taipei City, Taiwan.</h2>", unsafe_allow_html=True) 
-    <p><strong>Dataset Information:</strong></p>
-    <ul>
-      <li>the house age (unit: year).</li>
-      <li>the distance to the nearest MRT station (unit: meter).</li>
-      <li>the number of convenience stores in the living circle on foot (integer).</li>
-      <li>the geographic coordinate, latitude. (unit: degree).</li>
-      <li>the geographic coordinate, longitude. (unit: degree).</li>
-    </ul>
-    <p><strong>The output is as follow<strong> Y= house price of unit area (10000 New Taiwan Dollar/Ping, where Ping is a local unit, 1 Ping = 3.3 meter squared).</p>
-    <p style='text-align: center;'>This tool helps you calculate the cost based on model parameters.</p>
-
+st.write= ("<h3 style='text-align: center;'>The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist, New Taipei City, Taiwan.</h2>", unsafe_allow_html=True)     
 st.markdown('---'*10)
 
 
