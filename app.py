@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Menulis judul
-st.markdown("<h1 style='text-align: center; '> Real estate valuation </h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; '> Real estate valuation </h2>", unsafe_allow_html=True)
 st.markdown('---'*10)
 
 
