@@ -30,7 +30,7 @@ def main():
     # Nilai awal
     Age = 32.0
     Distance_MRT = 84.87882
-    Total_Store = 10
+    Total_Sotres = 10
     Latitude = 24.98298
     longitude = 121.54024
     
@@ -41,7 +41,7 @@ def main():
         with col2:
             Distance_MRT = st.number_input('Distance_MRT', value=Distance_MRT)
         with col3:
-           Total_Store = st.number_input('Total_Sotres', value=Total_Store)
+           Total_Store = st.number_input('Total_Store', value=Total_Sotres)
             
     st.markdown('---'*10)
     
@@ -50,7 +50,7 @@ def main():
         with col4:
            Latitude = st.number_input('Latitude', value=Latitude)
         with col5:
-           Longitude = st.number_input('longitude', value=Longitude)
+           longitude = st.number_input('longitude', value=Longitude)
 
         
     data = {
