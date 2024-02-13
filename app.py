@@ -41,7 +41,7 @@ def main():
         with col2:
             Distance_MRT = st.number_input('Distance_MRT', value=Distance_MRT)
         with col3:
-           Total_Store = st.number_input('Total_Store', value=Total_Sotres)
+           Total_Sotres = st.number_input('Total_Sotres', value=Total_Sotres)
             
     st.markdown('---'*10)
     
@@ -50,7 +50,7 @@ def main():
         with col4:
            Latitude = st.number_input('Latitude', value=Latitude)
         with col5:
-           longitude = st.number_input('longitude', value=Longitude)
+           longitude = st.number_input('longitude', value=longitude)
 
         
     data = {
@@ -58,7 +58,7 @@ def main():
         'Distance_MRT': Distance_MRT,
         'Total_Sotres': Total_Sotres,
         'Latitude': Latitude,
-        'longitude': Longitude,
+        'longitude': longitude,
         }
     
     kolom = list(data.keys())
