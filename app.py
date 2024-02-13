@@ -12,7 +12,7 @@ The real estate valuation is a regression problem. The market historical data se
 """
 
 # Menulis judul
-st.markdown("<h2 style='text-align: center; '> Real Estate Valuation </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: left; '> Real Estate Valuation </h2>", unsafe_allow_html=True)
 st.text('The real estate valuation is a regression problem. The market historical data set of real estate valuation are collected from Sindian Dist,New Taipei City, Taiwan.')
 st.text('This tool helps you calculate the cost based on model parameters')
 st.markdown('---'*10)
